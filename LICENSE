@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2025 ask_gemini project contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---
+
+SELF-HOSTED IMPLEMENTATION NOTICE:
+
+This project provides a configuration-based server template for connecting to 
+Gemini AI through MCP (Model Context Protocol). For users who choose to implement 
+their own self-hosted version of ask_gemini:
+
+1. DO NOT COMMIT API KEYS TO VCS - Keep credentials in your local .gemini_config.json file
+2. The implementation itself contains no secrets or hardcoded keys  
+3. Users should only copy this server template and paste their own configuration
+4. Never share or commit your personal .gemini_config.json to any public repository
+
+This license allows commercial use while maintaining a clear separation between 
+the documentation package and the self-hosted API key management that users must 
+do themselves for security reasons.
