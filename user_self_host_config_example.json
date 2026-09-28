@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "gemini-mcp": {
+      "command": "<ABSOLUTER_PFAD_ZU_DEINEM_VENV>/bin/python",
+      "args": ["/ABSOLUTER_PFAD/ask_gemini_server.py"],
+      "env": {
+        "GEMINI_API_KEY": "<DEIN_API_KEY_NUR_LOKAL_EINTRAGEN>"
+      }
+    }
+  }
+}
